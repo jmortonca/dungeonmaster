@@ -65792,7 +65792,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
+__webpack_require__(/*! ./components/DungeonMaster */ "./resources/js/components/DungeonMaster.js");
 
 /***/ }),
 
@@ -65841,10 +65841,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Example.js":
-/*!********************************************!*\
-  !*** ./resources/js/components/Example.js ***!
-  \********************************************/
+/***/ "./resources/js/components/DungeonMaster.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/DungeonMaster.js ***!
+  \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65857,7 +65857,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Example() {
+var DungeonMaster = function DungeonMaster() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -65868,15 +65868,15 @@ function Example() {
     className: "card"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header"
-  }, "Example Component"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Logged In State"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body"
-  }, "I'm an example component!")))));
-}
+  }, "You're Logged In. Yay.")))));
+};
 
-/* harmony default export */ __webpack_exports__["default"] = (Example);
+/* harmony default export */ __webpack_exports__["default"] = (DungeonMaster);
 
-if (document.getElementById('example')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
+if (document.getElementById('dungeonmaster')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DungeonMaster, null), document.getElementById('dungeonmaster'));
 }
 
 /***/ }),
@@ -65899,8 +65899,8 @@ if (document.getElementById('example')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/dungeonmaster/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/dungeonmaster/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/cisloaner/sites/dungeonmaster/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/cisloaner/sites/dungeonmaster/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
